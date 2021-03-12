@@ -1,0 +1,6 @@
+climate = int(input("Climate at Sea level"))
+mountain_height = int(input("Mountain Height"))
+a = mountain_height - 900
+b = a/100*0.6
+total = climate-(9+b)
+print(total, "degrees celsius")
